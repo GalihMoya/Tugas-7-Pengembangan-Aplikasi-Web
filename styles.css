@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #827272, #48494B);
+    color: #fff;
+}
+
+header {
+    background: linear-gradient(to right, #48494B, #828282);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    background: linear-gradient(to right, #48494B, #828282);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #dff9fb;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background: linear-gradient(to bottom, #3E424B, #777B7E);
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.content {
+    width: 75%;
+    background: linear-gradient(to bottom, #ffffff, #D9DDDC);
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+}
+
+footer {
+    background: linear-gradient(to right, #222021, #BEBD88);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Form Kontak */
+#formWA {
+  background: linear-gradient(to bottom right, #D9DDDC, #ffffff);
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 500px;
+  color: #333;
+}
+
+#formWA label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #48494B;
+}
+
+#formWA input,
+#formWA textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #48494B;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+#formWA input:focus,
+#formWA textarea:focus {
+  border-color: #818380;
+  outline: none;
+  box-shadow: 0 0 6px rgba(0, 188, 212, 0.4);
+}
+
+#formWA button {
+  background: linear-gradient(to right, #828282, #48494B);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#formWA button:hover {
+  background: linear-gradient(to right, #48494B, #828282);
+}
